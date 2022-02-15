@@ -1,3 +1,7 @@
+# COMP-1073 React Chart.js Project
+Project by Andrew Souvanlasy, Hunter Roseborough, Thomas Caulfeild.\
+Below is the default README.md included when creating a react app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
