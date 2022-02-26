@@ -17,15 +17,6 @@ export default class BarChart extends Component {
 					label: "Video game sales in North America ($ millions)",
 					backgroundColor: "darksalmon",
 					fill: false,
-					options: {
-						plugins: {
-							legend: {
-								display: true,
-								text: "asdasdasd"
-								
-							}
-						}
-					}
 				}
 				]
 			}

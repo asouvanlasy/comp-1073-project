@@ -37,8 +37,7 @@
   }
 }
 
-div h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.charts {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
