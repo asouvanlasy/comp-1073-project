@@ -1,4 +1,4 @@
-import LineChart from "./components/LineChart.js";
+import Graph1 from "./components/Graph1";
 import BarChart from "./components/BarChart";
 import PieChart from "./components/PieChart.js";
 import ScatterChart from "./components/ScatterChart";
@@ -6,7 +6,7 @@ import ScatterChart from "./components/ScatterChart";
 export default function App() {
     return (
       <div>
-        <LineChart />
+        <Graph1 />
         <BarChart />
         <PieChart />
         <ScatterChart />
