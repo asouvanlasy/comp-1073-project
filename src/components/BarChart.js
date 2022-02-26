@@ -11,34 +11,24 @@ export default class BarChart extends Component {
 		new Chart(ctx, {
 			type: "bar",
 			data: {
-				labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-				datasets: [{ 
-					data: [86,114,106,106,107,111,133],
-					label: "Total",
-					borderColor: "#3e95cd",
-					backgroundColor: "#7bb6dd",
+				labels: ["Wii Sports", "Super Mario Bros.", "Mario Kart Wii", "Wii Sports Resort", "Pokemon Red/Blue"],
+                datasets: [{ 
+					data: [41.49,29.08,15.85,15.75,11.27],
+					label: "Video game sales in North America ($ millions)",
+					backgroundColor: "darksalmon",
 					fill: false,
-				}, { 
-					data: [70,90,44,60,83,90,100],
-					label: "Accepted",
-					borderColor: "#3cba9f",
-					backgroundColor: "#71d1bd",
-					fill: false,
-				}, { 
-					data: [10,21,60,44,17,21,17],
-					label: "Pending",
-					borderColor: "#ffa500",
-					backgroundColor:"#ffc04d",
-					fill: false,
-				}, { 
-					data: [6,3,2,2,7,0,16],
-					label: "Rejected",
-					borderColor: "#c45850",
-					backgroundColor:"#d78f89",
-					fill: false,
+					options: {
+						plugins: {
+							legend: {
+								display: true,
+								text: "asdasdasd"
+								
+							}
+						}
+					}
 				}
 				]
-			},
+			}
 		});
 	}
 	render() {

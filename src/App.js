@@ -1,15 +1,17 @@
-import Graph1 from "./components/Graph1";
 import BarChart from "./components/BarChart";
+import LineChart from "./components/LineChart";
 import PieChart from "./components/PieChart.js";
-import ScatterChart from "./components/ScatterChart";
+import RadarChart from "./components/RadarChart";
 
 export default function App() {
     return (
-      <div>
-        <Graph1 />
-        <BarChart />
-        <PieChart />
-        <ScatterChart />
-      </div>
-    );   
+        <div>
+            <h1>React Chart-JS Project</h1>
+            <h2>COMP-1073 | Group 3</h2>
+            <BarChart />
+            <LineChart />
+            <PieChart />
+            <RadarChart />
+        </div>
+    );
 }
